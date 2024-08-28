@@ -1,0 +1,8 @@
+model_clip: "clip-ViT-B-32"
+storage_path: "data/processed"
+modules:
+  compression: "mava.compression.base_compression.BaseCompression"
+  encoding: "mava.encoding.base_encoding.BaseEncoding"
+  retrieval: "mava.retrieval.base_retrieval.BaseRetrieval" #"mava.retrieval.hierarchical_retrieval.HierarchicalRetrieval" 
+  storage: "mava.storage.base_storage.BaseStorage"
+  conversation: "mava.conversation.base_conversation.BaseConversation"
